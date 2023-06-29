@@ -2,7 +2,7 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 
 const routes = [
   {
-    path: '/',
+    path: '/home',
     name: 'home',
     component: () => import('../views/HomeView.vue')
   },
@@ -14,7 +14,16 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () => import('../views/AboutView.vue')
   },
-
+  {
+    path:'/singin',
+    name:'Singin',
+    component:()=>import('../views/SinginView.vue')
+  },
+  {
+    path:'/singup',
+    name:'Singup',
+    component:()=>import('../views/SingupView.vue')
+  }
 ]
 
 const router = createRouter({
