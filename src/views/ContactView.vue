@@ -1,7 +1,6 @@
 <template>
-    <Navbar/>
   <div class="text-2xl">
-    <label>About Page</label>
+    Contact page
   </div>
 </template>
 
