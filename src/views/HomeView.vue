@@ -1,16 +1,14 @@
 <template>
     <Navbar/>
-  <div class="text-2xl">
+  <div class="text-2xl text-center">
     <label>Home Page</label>
   </div>
 </template>
 
 <script>
-import Navbar from './components/Navbar.vue';
 export default {
-    component: {Navbar}
 
-}
+};
 </script>
 
 <style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="text-2xl">
+  <div class="text-2xl text-center">
     Setting Page
   </div>
 </template>
