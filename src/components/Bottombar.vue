@@ -1,8 +1,8 @@
 <template>
-  <div class="footer-label">
+  <div class="footer-label bg-gray-800" >
     <div class="wrapper">
       <p>KMITL</p>
-      <p>King mongkut's institute of technology ladkrabang</p>
+      <p class="hide-on-mobile">King mongkut's institute of technology ladkrabang</p>
     </div>
   </div>
 </template>
@@ -20,7 +20,6 @@ export default {
   position: fixed;
   bottom: 0;
   padding: 4px 0;
-  background-color:#303030;
   z-index: 998;
   .wrapper {
     display: flex;
@@ -50,6 +49,9 @@ export default {
         font-size: 1.25em !important;
         line-height: unset;
       }
+    }
+    .hide-on-mobile{
+      display: none;
     }
   }
 }
