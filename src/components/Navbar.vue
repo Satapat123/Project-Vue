@@ -44,9 +44,6 @@
                         <router-link to="/singin">
                                 <a class="py-5 px-2 text-indigo-200">Sing in</a>
                         </router-link>
-                        <router-link to="/singup">
-                                <a class="py-5 px-2 text-indigo-200">Sing up</a>
-                        </router-link>
                     </div>
                     <!-- button show mobile menu -->
                     <div class="md:hidden flex items-center">
