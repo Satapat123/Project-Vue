@@ -1,5 +1,4 @@
 <template>
-    <Navbar/>
   <div class="text-2xl text-center">
     <label>Home Page</label>
   </div>
