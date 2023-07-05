@@ -22,9 +22,19 @@ const routes = [
         component:()=>import('../views/SettingView.vue')
       },
       {
-        path:'/contact',
-        name:'contact',
-        component:()=>import('../views/ContactView.vue')
+        path:'/contactKin',
+        name:'contactkin',
+        component:()=>import('../views/ContactList/ContactKinPopup.vue')
+      },
+      {
+        path:'/contactSu',
+        name:'contactsu',
+        component:()=>import('../views/ContactList/ContactSumoPopup.vue')
+      },
+      {
+        path:'/contactPu',
+        name:'contactpu',
+        component:()=>import('../views/ContactList/ContactPugunPopup.vue')
       },
     ]
   },
